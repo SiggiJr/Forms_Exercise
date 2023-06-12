@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: lightgrey;
+  width: 30%;
+}
+
+form > h1 {
+  background-color: #43d1af;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+div {
+  padding: 10px 10px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #43d1af;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 5px;
+  border: none;
+  padding: 10px 0;
+}
+
+button:hover {
+  background-color: #2ebc99;
+}
