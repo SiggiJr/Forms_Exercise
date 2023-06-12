@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  padding: 10px;
+  background-color: rgb(38, 38, 38);
+  width: 446px;
+}
+
+a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.head {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.sign_up,
+.login {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.active {
+  background-color: rgb(72, 145, 72);
+}
+
+.login.active {
+  border-left: 1px solid #fff;
+}
+
+.sign_up.active {
+  border-right: 1px solid #fff;
+}
+
+.hover:hover {
+  background-color: rgb(85, 212, 85);
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 2.5rem;
+}
+
+input,
+button {
+  width: 100%;
+}
+
+input {
+  background-color: rgb(38, 38, 38);
+  font-size: 1.1rem;
+  padding: 10px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.name_input {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  width: 49%;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.forgot {
+  display: block;
+  color: green;
+  text-decoration: underline;
+}
+
+button {
+  color: #fff;
+  background-color: rgb(72, 145, 72);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+  margin-bottom: 20px;
+  word-spacing: 15px;
+}
