@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form_container {
+  margin: 10px;
+}
+
+fieldset {
+  padding: 10px;
+}
+
+.buttons {
+  margin-top: 5px;
+}
