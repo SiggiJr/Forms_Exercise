@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  padding: 5px 0;
+}
+
+.name input {
+  width: 49.2%;
+}
+
+.email input {
+  width: 100%;
+}
+
+.thema select {
+  width: 100%;
+}
+
+.nachricht textarea {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  background-color: rgb(56, 121, 121);
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: darkslategray;
+}
+
+.required {
+  color: red;
+}
