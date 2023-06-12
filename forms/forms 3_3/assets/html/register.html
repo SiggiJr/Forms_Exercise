@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Forms_3_3</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="login_register">
+        <a href="../../index.html">Login</a>
+        <a href="#" class="active">Register</a>
+      </div>
+      <div class="social_media">
+        <a href="https://www.facebook.com"
+          ><img src="../img/facebook.png" alt=""
+        /></a>
+        <a href="https://www.instagram.com"
+          ><img src="../img/instagram.png" alt=""
+        /></a>
+        <a href="https://www.twitter.com"
+          ><img src="../img/twitter.png" alt=""
+        /></a>
+      </div>
+      <form action="">
+        <input type="email" name="email" id="email" placeholder="Enter Email" />
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter Name"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Password"
+          required
+        />
+
+        <input
+          type="password"
+          name="password_repeat"
+          id="password_repeat"
+          placeholder="Repeat Password"
+          required
+        />
+        <div class="remember_container">
+          <input type="checkbox" name="remember" id="remember" /> Remember
+          password
+        </div>
+        <button>Register</button>
+      </form>
+    </section>
+  </body>
+</html>

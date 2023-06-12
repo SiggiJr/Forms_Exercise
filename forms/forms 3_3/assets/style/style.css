@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --first_color: rgb(0, 0, 255);
+  --second_color: gray;
+}
+
+body {
+  font-family: "Poppins";
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 400px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.login_register {
+  background: linear-gradient(90deg, var(--first_color), var(--second_color));
+  width: 60%;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.login_register a {
+  display: inline-block;
+  text-align: center;
+  color: rgb(179, 179, 179);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.login_register > a.active {
+  color: #fff;
+}
+
+.social_media {
+  margin-top: 25px;
+}
+
+.social_media img {
+  border-radius: 30px;
+  padding: 5px;
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.social_media img:hover {
+  background-color: rgb(208, 208, 208);
+}
+
+form {
+  margin-top: 4rem;
+  padding: 0 30px;
+}
+
+form > input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid darkgray;
+  margin-bottom: 1rem;
+}
+
+.remember_container {
+  margin: 2rem 0;
+  text-align: left;
+}
+
+button {
+  background: linear-gradient(90deg, var(--first_color), var(--second_color));
+  color: #fff;
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
